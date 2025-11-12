@@ -1,5 +1,8 @@
-@import "tailwindcss"; 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* 👇 your custom styles can go here safely */
 #right::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
